@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-width: 1500px;
+
+
+}
+
+header {
+    display: flex;
+    background-color: #41a5f6;
+    color: black;
+    align-items: center;
+    padding: 5px 0px 0px 35px;
+    border-bottom: 5px solid red;
+    height: 70px;
+    margin-bottom: -10px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 900;
+    min-width: 360px;
+
+}
+
+header p {
+    font-weight: 700;
+    font-size: 18px;
+    text-indent: 30px;
+    color: white;
+}
+
+header a {
+    margin: 10px;
+}
+
+h1 {
+    min-width: 250px;
+}
+
+section {
+
+    display: grid;
+    grid-gap: 65px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "first third fourth fifth"
+        "second sixth";
+    margin-left: 200px;
+}
+
+section a {
+    color: #5583b4;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 900;
+    padding-top: 5px;
+    margin-bottom: -5px;
+}
+
+.blue {
+    color: #68accd;
+}
+
+.dark-blue {
+    color: #4e86a0;
+}
+
+.green {
+    color: lawngreen;
+}
+
+.dark-green {
+    color: #709f34;
+}
+
+.orange {
+    color: orangered;
+}
+
+.brown {
+    color: #b74720;
+}
+
+.first_block {
+    grid-area: first;
+}
+
+.second_block {
+    grid-area: second;
+}
+
+.third_block {
+    grid-area: third;
+}
+
+.fourth_block {
+    grid-area: fourth;
+}
+
+.fifth_block {
+    grid-area: fifth;
+}
+
+.sixth_block {
+    grid-area: sixth;
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+}
+
+pre {
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: -10px;
+
+}
+
+br {
+    content: "";
+    display: block;
+    margin: 20px;
+}
+.line_height {
+    content: "";
+    display: block;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #263137;
+    align-items: center;
+    justify-content: flex-start;
+    height: 110px;
+    padding-top: 40px;
+    
+}
+
+footer p {
+    line-height: 0px !important;
+    text-align: center;
+    color: white !important;
+}
+
+.left {
+    line-height: 10px;
+}
+
+.right {
+    margin-left: auto;
+}
